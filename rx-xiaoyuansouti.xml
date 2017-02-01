@@ -1,0 +1,16 @@
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+  <intent-filter>
+    <action name="com.xiaomi.mipush.sdk.WAKEUP" />
+    <action name="com.yuantiku.android.common.media.play.MediaPlayService" />
+    <action name="com.yuantiku.android.common.media.record.VoiceRecordService" />
+    <action name="com.fenbi.android.solar.widget.SolarWidgetService" />
+    <action name="com.tencent.android.tpush.service.XGPushService" />
+    <action name="com.tencent.android.tpush.rpc.XGRemoteService" />
+    <action name="com.fenbi.tutor.service.offcache.OfflineCacheService" />
+    <action name="com.fenbi.tutor.service.appInit.AppInitService" />
+    <action name="com.yuanfudao.customerservice.EaseShowBigImageActivity" />
+    <action name="com.hyphenate.chat.EMChatService" />
+    <action name="com.squareup.leakcanary.internal.HeapAnalyzerService" />
+    <action name="com.squareup.leakcanary.DisplayLeakService" />
+  </intent-filter>
+</prescription>
